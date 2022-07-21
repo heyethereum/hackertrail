@@ -1,0 +1,32 @@
+
+All Programming Languages
+Time Left:
+00:06:53
+British mathematician John Conway developed in 1970 so-called "Game of life" - a simplified simulation of the development of cell colonies, of which various properties were the subject of discussion of mathematicians and computer scientists.
+
+The game is played on a rectangular board divided into fields. Each field can be alive (there is a cell on it) or dead. In one unit of time each field checks the status of its neighbours and determines its own value. If an alive cell is surrounded by less than 2 or more than 3 cells it dies of loneliness or lack of living space. If a dead cell is surrounded by exactly three cells it comes back to life. The "surrounding" is defined by eight fields adjacent to the cell. In addition, our simulation takes place on 5x5 board, where the boundaries come together (so for example the last cell is first cell's neighbour).
+
+Input
+The first line of the input contains number of tests t (t<100). Each test consists of 5 lines - 5 characters each - which describe the 5x5 board. There are only two characters that may appear: '0' (dead cell) and '1' (living cell).
+
+Output
+For each test print YES if after 100 units of time there is at least one cell alive or NO if all cells are dead.
+
+Example
+Input:
+
+2
+00000
+11001
+00000
+00000
+00000
+00000
+01000
+00000
+00000
+00001
+Output:
+
+YES
+NO
